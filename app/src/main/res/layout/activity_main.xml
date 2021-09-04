@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/headerBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/header_background"
+        android:padding="20dp"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/header"
+            android:textSize="25dp"
+            android:textColor="@color/colorWhite"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginStart="10dp"
+            />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    
+    <TextView
+        android:id="@+id/subBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/subHeader"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:padding="25dp"
+        app:layout_constraintTop_toBottomOf="@+id/headerBar"
+         />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/subBar">
+
+        <RadioButton
+            android:id="@+id/one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/item_background"
+            android:padding="15dp"
+            android:paddingLeft="20dp"
+            android:text="01"
+            android:textColor="@color/colorAccent"
+            android:textSize="30dp" />
+
+        <RadioButton
+            android:id="@+id/two"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/item_background"
+            android:padding="15dp"
+            android:paddingLeft="20dp"
+            android:text="02"
+            android:textColor="@color/colorAccent"
+            android:textSize="30dp"
+
+            />
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/item_background"
+            android:padding="15dp"
+            android:paddingLeft="20dp"
+            android:text="03"
+            android:textColor="@color/colorAccent"
+            android:textSize="30dp" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/confirmTableNumButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:padding="25dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:text="@string/confirmTableNum"
+        android:textSize="25dp"
+        android:textColor="@color/colorWhite"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

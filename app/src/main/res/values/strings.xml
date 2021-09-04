@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">SimpleOrderApp</string>
+    <string name="header">簡易點餐系統</string>
+    <string name="subHeader">請選擇入座桌號</string>
+    <string name="showTableNum">桌號：01</string>
+    <string name="cata_rice">米飯類</string>
+    <string name="cata_noodle">麵食類</string>
+    <string name="cata_desert">小菜類</string>
+    <string name="modifyOrder">修改訂單</string>
+    <string name="confirmOrder">確認訂單</string>
+    <string name="total">總金額</string>
+    <string name="nextOrder">繼續點餐</string>
+    <string name="finishOrder">結束點餐</string>
+    <string name="confirmTableNum">確認桌號</string>
+    <string name="cancelOrder">取消訂單</string>
+    <string name="subOrder">送出訂單</string>
+    <string name="backButton">回前頁</string>
+</resources>

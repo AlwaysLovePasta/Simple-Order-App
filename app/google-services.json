@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "888603568257",
+    "project_id": "simpleordersystem-fa79f",
+    "storage_bucket": "simpleordersystem-fa79f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:888603568257:android:778dca1b23b7b708f88580",
+        "android_client_info": {
+          "package_name": "com.example.simpleorderapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "888603568257-1i5jf2hn7ip9ei252adcru34k0ggd1dm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDH8weSdttbV5NqJnkQRS0YBPX-AgdX-RA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "888603568257-1i5jf2hn7ip9ei252adcru34k0ggd1dm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
